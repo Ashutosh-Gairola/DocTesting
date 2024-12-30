@@ -1,87 +1,95 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="shortcut icon" href="../img/favicon.ico" />
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Reference - Calculation Docs</title>
-    <link rel="stylesheet" href="../css/theme.css" />
-    <link rel="stylesheet" href="../css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
-        <link href="../assets/_mkdocstrings.css" rel="stylesheet" />
-    
-      <script>
-        // Current page data
-        var mkdocs_page_name = "Reference";
-        var mkdocs_page_input_path = "reference.md";
-        var mkdocs_page_url = null;
-      </script>
-    
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <link href="../assets/_mkdocstrings.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../js/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-      <script>hljs.highlightAll();</script> 
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "calculations", url: "#_top", children: [
+          ]},
+          {title: "add", url: "#calculator.calculations.add", children: [
+          ]},
+          {title: "divide", url: "#calculator.calculations.divide", children: [
+          ]},
+          {title: "multiply", url: "#calculator.calculations.multiply", children: [
+          ]},
+          {title: "subtract", url: "#calculator.calculations.subtract", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Calculation Docs
-        </a>
-      </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="..">Calculation Docs</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../tutorials/">Tutorials</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../how-to-guides/">How To Guides</a>
-                </li>
-              </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">Reference</a>
-    <ul class="current">
-    </ul>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../explanation/">Explanation</a>
-                </li>
-              </ul>
-      </div>
+
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../explanation/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../explanation/" class="btn btn-xs btn-link">
+        Explanation
+      </a>
     </div>
-    </nav>
+    
+    <div class="wm-article-nav">
+      <a href="../how-to-guides/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../how-to-guides/" class="btn btn-xs btn-link">
+        How To Guides
+      </a>
+    </div>
+    
+  </div>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Calculation Docs</a>
-        
-      </nav>
-      <div class="wy-nav-content">
-        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Reference</li>
-    <li class="wy-breadcrumbs-aside">
-    </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-            <div class="section" itemprop="articleBody">
-              
-                <p>This part of the project documentation focuses on
+    
+
+    <p>This part of the project documentation focuses on
 an <strong>information-oriented</strong> approach. Use it as a
 reference for the technical implementation of the
 <code>calculator</code> project code.</p>
@@ -155,60 +163,75 @@ reference for the technical implementation of the
 </code></pre></div>
 
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Parameters:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
-              <b><code>a</code></b>
-                  (<code>float</code>)
-              –
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>a</code>
+            </td>
+            <td>
+                  <code>float</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the first addend in the addition.</p>
               </div>
-            </li>
-            <li>
-              <b><code>b</code></b>
-                  (<code>float</code>)
-              –
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>b</code>
+            </td>
+            <td>
+                  <code>float</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the second addend in the addition.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Returns:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
-<b><code>float</code></b>(                  <code>float</code>
-)              –
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>float</code></td>            <td>
+                  <code>float</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the arithmetic sum of <code>a</code> and <code>b</code>.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
             <details class="quote">
               <summary>Source code in <code>calculator\calculations.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">34</span>
@@ -286,83 +309,98 @@ reference for the technical implementation of the
 </code></pre></div>
 
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Parameters:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
-              <b><code>a</code></b>
-                  (<code><span title="typing.Union">Union</span>[float, int]</code>)
-              –
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>a</code>
+            </td>
+            <td>
+                  <code><span title="typing.Union">Union</span>[float, int]</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the dividend in the division.</p>
               </div>
-            </li>
-            <li>
-              <b><code>b</code></b>
-                  (<code><span title="typing.Union">Union</span>[float, int]</code>)
-              –
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>b</code>
+            </td>
+            <td>
+                  <code><span title="typing.Union">Union</span>[float, int]</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the divisor in the division.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Returns:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
                   <code>float</code>
-              –
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the quotient of <code>a</code> and <code>b</code>.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Raises:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
+
+<p><span class="doc-section-title">Raises:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
                   <code>ZeroDivisionError</code>
-              –
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>An error occurs when the divisor is <code>0</code>.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
             <details class="quote">
               <summary>Source code in <code>calculator\calculations.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 94</span>
@@ -444,60 +482,75 @@ reference for the technical implementation of the
 </code></pre></div>
 
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Parameters:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
-              <b><code>a</code></b>
-                  (<code><span title="typing.Union">Union</span>[float, int]</code>)
-              –
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>a</code>
+            </td>
+            <td>
+                  <code><span title="typing.Union">Union</span>[float, int]</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the multiplicand in the multiplication.</p>
               </div>
-            </li>
-            <li>
-              <b><code>b</code></b>
-                  (<code><span title="typing.Union">Union</span>[float, int]</code>)
-              –
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>b</code>
+            </td>
+            <td>
+                  <code><span title="typing.Union">Union</span>[float, int]</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the multiplier in the multiplication.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Returns:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
                   <code>float</code>
-              –
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the product of <code>a</code> and <code>b</code>.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
             <details class="quote">
               <summary>Source code in <code>calculator\calculations.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">76</span>
@@ -561,60 +614,75 @@ reference for the technical implementation of the
 </code></pre></div>
 
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Parameters:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
-              <b><code>a</code></b>
-                  (<code><span title="typing.Union">Union</span>[float, int]</code>)
-              –
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>a</code>
+            </td>
+            <td>
+                  <code><span title="typing.Union">Union</span>[float, int]</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the minuend in the subtraction.</p>
               </div>
-            </li>
-            <li>
-              <b><code>b</code></b>
-                  (<code><span title="typing.Union">Union</span>[float, int]</code>)
-              –
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>b</code>
+            </td>
+            <td>
+                  <code><span title="typing.Union">Union</span>[float, int]</code>
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the subtrahend in the subtraction.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
 
-<table class="field-list">
-  <colgroup>
-    <col class="field-name" />
-    <col class="field-body" />
-  </colgroup>
-  <tbody valign="top">
-    <tr class="field">
-      <th class="field-name">Returns:</th>
-      <td class="field-body">
-        <ul class="first simple">
-            <li>
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
                   <code>float</code>
-              –
+            </td>
+            <td>
               <div class="doc-md-description">
                 <p>A number representing the difference between <code>a</code> and <code>b</code>.</p>
               </div>
-            </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
             <details class="quote">
               <summary>Source code in <code>calculator\calculations.py</code></summary>
               <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">58</span>
@@ -663,50 +731,43 @@ reference for the technical implementation of the
     </div>
 
 </div>
-              
-            </div>
-          </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../how-to-guides/" class="btn btn-neutral float-left" title="How To Guides"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../explanation/" class="btn btn-neutral float-right" title="Explanation">Next <span class="icon icon-circle-arrow-right"></span></a>
+
+  <br>
+    
+
+    
+    
+      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../explanation/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../explanation/" class="btn btn-xs btn-link">
+        Explanation
+      </a>
     </div>
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
+    
+    <div class="wm-article-nav">
+      <a href="../how-to-guides/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../how-to-guides/" class="btn btn-xs btn-link">
+        How To Guides
+      </a>
+    </div>
+    
   </div>
 
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-          
-        </div>
-      </div>
-
-    </section>
-
-  </div>
-
-  <div class="rst-versions" role="note" aria-label="Versions">
-  <span class="rst-current-version" data-toggle="rst-current-version">
-    
-    
-      <span><a href="../how-to-guides/" style="color: #fcfcfc">&laquo; Previous</a></span>
-    
-    
-      <span><a href="../explanation/" style="color: #fcfcfc">Next &raquo;</a></span>
-    
-  </span>
+    <br>
 </div>
-    <script src="../js/jquery-3.6.0.min.js"></script>
-    <script>var base_url = "..";</script>
-    <script src="../js/theme_extra.js"></script>
-    <script src="../js/theme.js"></script>
-    <script>
-        jQuery(function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        });
-    </script>
+
+<footer class="container-fluid wm-page-content">
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
 
 </body>
 </html>
