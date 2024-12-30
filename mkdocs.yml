@@ -1,0 +1,24 @@
+# mkdocs new . --> to create the whole project in MKDoc
+# mkdocs.yml settings file, tells MkDocs how to handle your project documentation.
+site_name: Calculation Docs
+
+theme:
+  name: "material"
+
+
+# to have docstring from code to here use mkdocstrings (list or dict)
+plugins: [
+  "mkdocstrings",
+]
+
+# nav only have list 
+# to Give custom name to the pages use --> Calculation Docs: index.md
+nav:
+  [
+    Calculation Docs: index.md,
+    tutorials.md,
+    How To Guides: how-to-guides.md,
+    reference.md,
+    explanation.md 
+  ]
+
