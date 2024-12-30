@@ -3,7 +3,7 @@
 site_name: Calculation Docs
 
 theme:
-  name: "readthedocs"
+  name: "material"
 
 
 # to have docstring from code to here use mkdocstrings (list or dict)
