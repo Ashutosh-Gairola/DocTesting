@@ -9,6 +9,7 @@ theme:
 # to have docstring from code to here use mkdocstrings (list or dict)
 plugins: [
   "mkdocstrings",
+  "mike"
 ]
 
 # nav only have list 
